@@ -1,0 +1,49 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Dolor}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{XML}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\blindtext
+
+You can use all kinds of abbreviations that don't mean anything, but add
+a false sense of importance and significance to your work. Some of these
+abbreviations are:
+%
+\begin{itemize*}
+\item eXtensible Markup Language~(XML)
+\item JavaScript Object Notation~(JSON)
+\item Yet Another Markup Language~(YAML)
+\end{itemize*}
+%
+\nomenclature{XML}{eXtensible Markup Language}
+\nomenclature{JSON}{JavaScript Object Notation}
+\nomenclature{YAML}{Yet Another Markup Language}
+
+\begin{table}
+\caption{Решетка замечательности аббревиатур}
+\centering
+XML < JSON < YAML
+\end{table}
+
+\Blindtext
+
+  \begin{lstlisting}[language=Java, label={lst:aspectj_example}, 
+  caption={Пример описания аспектов в AspectJ}]
+aspect A  {
+  pointcut fooPC(): execution(void Test.foo());
+  pointcut printPC(): call(void System.out.println(String));
+  
+  before(): cflow(fooPC()) && printPC() {
+    System.out.println("Hello, world!");
+  }
+}
+  \end{lstlisting}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{JSON}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\Blindtext
