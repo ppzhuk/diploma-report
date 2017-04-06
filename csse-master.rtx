@@ -65,11 +65,13 @@
 \vskip\fourthskip
 %
 \begin{center}
-  \courselabel\ \@coursenum\ --\ \@course\\%
-  \masterproglabel\ \@masterprognum\ --\ \@masterprog%
+%  \courselabel\ 
+  \@coursenum\ --\ \@course\\%
+%  \masterproglabel\ 
+  \@masterprognum\ --\ \@masterprog%
 \end{center}
 %
-\vskip\fifthskip
+\vskip\secondskip
 \begin{tabbing}
   \studentlabel\=\makebox[\fieldhshift][l]{\hrulefill\ \@author}\\[\sixthskip]
   \ifx\@sa\empty\else\diplomafield{sa}\\[\sixthskip]\fi
