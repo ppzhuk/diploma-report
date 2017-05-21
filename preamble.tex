@@ -44,20 +44,19 @@
 
 \usepackage{url}
 \usepackage{amsmath}
+\numberwithin{equation}{chapter}
 \usepackage{graphicx}
 \usepackage{pdflscape}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
-\usepackage{array}
 \newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 \newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 \newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 
 
 \usepackage{algorithm2e}
-
+\numberwithin{algocf}{chapter}
 % Перевод плагина
  
 \SetKwInput{KwData}{Исходные параметры}
@@ -74,5 +73,5 @@
 \SetKwFor{For}{цикл}{выполнять}{конец цикла}
 \SetKwFor{ForEach}{для каждого}{выполнять}{конец цикла}
 \SetKwRepeat{Repeat}{повторять}{до тех пор, пока}
-\SetAlgorithmName{Алгоритм}{алгоритм}{Список алгоритмов}
+\SetAlgorithmName{Процедура}{процедура}{Список процедур}
 \SetKwProg{Fn}{функция}{ :}{конец}

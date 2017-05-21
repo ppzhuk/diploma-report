@@ -407,7 +407,9 @@
 
 \clearpage
 
-\institution{{\cyr\CYRS\cyra\cyrn\cyrk\cyrt-\CYRP\cyre\cyrt\cyre\cyrr\cyrb\cyru\cyrr\cyrg\cyrs\cyrk\cyri\cyrishrt\ \cyrg\cyro\cyrs\cyru\cyrd\cyra\cyrr\cyrs\cyrt\cyrv\cyre\cyrn\cyrn\cyrery\cyrishrt\ \cyrp\cyro\cyrl\cyri\cyrt\cyre\cyrh\cyrn\cyri\cyrch\cyre\cyrs\cyrk\cyri\cyrishrt\ \cyru\cyrn\cyri\cyrv\cyre\cyrr\cyrs\cyri\cyrt\cyre\cyrt}}
+\institution{{\cyr\CYRS\cyra\cyrn\cyrk\cyrt-\CYRP\cyre\cyrt\cyre\cyrr\cyrb\cyru\cyrr\cyrg\cyrs\cyrk\cyri\cyrishrt\ \cyrp\cyro\cyrl\cyri\cyrt\cyre\cyrh\cyrn\cyri\cyrch\cyre\cyrs\cyrk\cyri\cyrishrt\ \cyru\cyrn\cyri\cyrv\cyre\cyrr\cyrs\cyri\cyrt\cyre\cyrt\
+\CYRP\cyre\cyrt\cyrr\cyra\
+\CYRV\cyre\cyrl\cyri\cyrk\cyro\cyrg\cyro}}
 \faculty{{\cyr\CYRI\cyrn\cyrs\cyrt\cyri\cyrt\cyru\cyrt\ %
   \cyrk\cyro\cyrm\cyrp\cyrsftsn\cyryu\cyrt\cyre\cyrr\cyrn\cyrery\cyrh\ %
   \cyrn\cyra\cyru\cyrk\ \cyri\ %
