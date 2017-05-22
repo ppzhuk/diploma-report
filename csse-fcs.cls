@@ -482,7 +482,7 @@
   justification=centering}
 \captionsetup[table]{%
   labelsep=period,
-  justification=raggedleft}
+  justification=raggedright}
 \floatname{figure}{\CYRR\cyri\cyrs\cyru\cyrn\cyro\cyrk}
 \floatname{table}{\CYRT\cyra\cyrb\cyrl\cyri\cyrc\cyra}
 
