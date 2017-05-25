@@ -1,0 +1,25 @@
+{
+  "id": 6,
+  "url": "https://zkbtesthelp.zendesk.com/api/v2/tickets/6.json",
+  "subject": "Error: Execution failed for task ':app:clean'",
+  "description": "...",
+  "status": "open",
+  "via": {...},
+  "recipient": "support@zkbhelp.zendesk.com",
+  "tags": [],
+  "requester_id": 4464873529,
+  "created_at": 1473947569000,
+  "updated_at": 1473947803000,
+  "submitter_id": 4464873529,
+  "assignee_id": 4457527969,
+  "group_id": 25557589,
+  "collaborator_ids": [],
+  "has_incidents": false,
+  "custom_fields": [
+    {
+      "id": 30975309
+    }
+  ],
+  "sharing_agreement_ids": [],
+  "brand_id": 1172969
+}
