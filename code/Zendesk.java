@@ -6,7 +6,7 @@ public class Zendesk implements Closeable {
     private Integer curRemainingApiCalls = null;
     private Integer reqInterval;
 
-    // Методы класса опущены
+    // ...
 
     // Данный метод отвечает за выполнление запроса,
     // полученного в качестве первого параметра.
