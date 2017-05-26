@@ -2,9 +2,6 @@
 internal const val ATTACHMENT_REGEX = 
 		"""!\[.*\]\([^\s]*\)"""		
 @Language("Regexp")
-internal const val whitespace = 
-		"""[\p{C}\p{Z}\s]"""
-@Language("Regexp")
 internal const val WWW_REGEX = 
 		"""(\b)www\.\S+\.\S+"""
 @Language("Regexp")

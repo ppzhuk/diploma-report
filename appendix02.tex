@@ -1,18 +1,29 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\chapter{Регулярные выражения}
-\label{appx01}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Пример применения эвристик}
+\label{appx02}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\lstinputlisting[
-  label={listings:regexps_lnf},
-  caption={Регулярные выражения для эвристик отображения},
-  style={java}
-]
-{code/regexps_lnf.kt}
-
-\lstinputlisting[
-  label={listings:regexps_lda},
-  caption={Регулярные выражения для эвристик тематического моделирования},
-  style={java}
-]
-{code/regexps_lda.kt}
+\begin{table}[tph!]
+\caption{Результат применения эвристик отображения к комментарию}
+\label{vop_prepr}
+\centering
+\begin{tabular}{|L{11cm}|}
+\hline
+\textbf{До предварительной обработки:}\\
+\hline
+\textcolor{red}{Hello Lois,}\\
+ \\
+if you have multiple boards connected to the same custom field with the same values bundle, then this behaviour is as expected. Creating independent copies of values bundles  should help avoid such synchronization. In existing boards you can fix this only by deleting unnecessary sprints manually.\\
+\textcolor{red}{Please let me know if you have any further questions, thank you.}\\
+ \\
+\textcolor{red}{Best regards,}\\
+\textcolor{red}{Clark Kent}\\
+\textcolor{red}{YouTrack \& Hub Support Engineer}\\
+\textcolor{red}{JetBrains}\\
+\hline
+\textbf{После предварительной обработки:}\\
+\hline
+If you have multiple boards connected to the same custom field with the same values bundle, then this behaviour is as expected. Creating independent copies of values bundles should help avoid such synchronization. In existing boards you can fix this only by deleting unnecessary sprints manually.\\
+\hline
+\end{tabular}
+\end{table}

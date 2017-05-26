@@ -1,0 +1,88 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Примеры вопросно-ответных пар}
+\label{appx03}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{table}[tph!]
+\caption{Пример ВОП, подходящей для публикации без редактирования}
+\label{vop_ok}
+\centering
+\begin{tabular}{|L{11cm}|}
+\hline
+\textbf{Вопрос:}\\
+\hline
+My company is currently experiencing an issue where a sprint created in one agile board will show up in multiple boards. It appears that in new boards, selecting "create independent copy" in the sprint field will fix this for the future, but I would like to fix this in our existing boards. Please let me know what steps we can take!\\
+\hline
+\textbf{Ответ:}\\
+\hline
+If you have multiple boards connected to the same custom field with the same values bundle, then this behaviour is as expected. Creating independent copies of values bundles should help avoid such synchronization. In existing boards you can fix this only by deleting unnecessary sprints manually.\\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{table}[tph!]
+\caption{Пример ВОП, подходящей для публикации с редактированием вопроса}
+\label{vop_ok}
+\centering
+\begin{tabular}{|L{11cm}|}
+\hline
+\textbf{Вопрос:}\\
+\hline
+\textcolor{red}{It is so basic an issue yet I do not find any help for this.} Could you send me a pointer to this. I \textcolor{red}{have already} projects and issues based on the project. Now I start a \textcolor{red}{scrum} and want to add issues to this \textcolor{red}{scrum} which are already existing. How do I do this? \textcolor{red}{....}\\
+\hline
+\textbf{Вопрос после ручного редактирования:}\\
+\hline
+Could you send me a pointer to this. I \textbf{already have} projects and issues based on the project. Now I start a \textbf{sprint} and want to add issues to this \textbf{sprint} which are already existing. How do I do this?\\
+\hline
+\textbf{Ответ:}\\
+\hline
+You can add issues from the issue full screen "Board" section on the bottom right under custom field. Also it's possible to add them from the backlog on the board or with the query: `Board <boards name> <sprint name>`.
+\\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{table}[tph!]
+\caption{Пример ВОП с некорректным вопросом}
+\label{vop_ok}
+\centering
+\begin{tabular}{|L{11cm}|}
+\hline
+\textbf{Вопрос:}\\
+\hline
+I just installed YouTrack on a RedHat 7 server and I'm attempting to run it from the command line with the following command:\\
+"java -Xmx1g  <some long command>“\\
+The console shows the following:\\
+"OpenJDK 64-Bit Server VM warning: <some long output>“\\
+I tried the default suggestion (see my call to launch YouTrack) but it isn't resolving this issue.\\
+Can someone help me to resolve this please?
+\\
+\hline
+\textbf{Ответ:}\\
+\hline
+I believe it to be a parameter ordering issue. Please try the following command and let me know if it helps:\\
+java  <some long command>
+\\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{table}[tph!]
+\caption{Пример ВОП с некорректным ответом}
+\label{vop_ok}
+\centering
+\begin{tabular}{|L{11cm}|}
+\hline
+\textbf{Вопрос:}\\
+\hline
+I am setting up a site (asp.net) for my company. Let's call that www.mycompany.com and it will be hosted by IIS. I just installed Youtrack and it's running at localhost:8082 Everything is working great. So I am wondering if you have any documentation in order to setup Youtrack behind an IIS proxy? i.e. www.mycompany.com/youtrack \\
+\hline
+\textbf{Ответ:}\\
+\hline
+Sorry for a short delay!\\
+"Default Web Site" is an entry point on your IIS configuration. As far as I investigated your case, it could be done, please refer to http://<longurl> . Also, this guide includes several other helpful instructions, check the table of contents.\\
+Thank you and let me know of have any additional questions, I'll try to help you with configuring IIS.
+\\
+\hline
+\end{tabular}
+\end{table}
