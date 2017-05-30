@@ -201,7 +201,7 @@
   \cyrp\cyrr\cyri\cyrl.%
 }
 \newcommand\stats@appendix@en{%
-  appendicies%
+  appendices%
 }
 \newcommand\@stats[5]{%
   \stats@report%
