@@ -91,24 +91,24 @@ https://www.companyname.com/} \\
 		\SetAlgoLined
 		\KwData{commentsList - список комментариев}
 		\KwResult{modifiedCommentsList - модифицированный список комментариев}
-		$suffixLength \leftarrow$ инициализация массива длины $commentsList.size$ нулями;\\
-		\For{$i\leftarrow 1$ \KwTo $commentsList.size$}{
-			\For{$j\leftarrow 1$ \KwTo $commentsList.size$}{
-				$suffix \leftarrow$ определить общий суффикс для $commentsList[i]$ и $commentsList[j]$\\
-				\While{$suffix[1]$ не символ новой строки}{
+		$\textit{suffixLength} \leftarrow$ инициализация массива длины $commentsList.size$ нулями;\\
+		\For{$i\leftarrow 1$ \KwTo $commentsList.size - 1$}{
+			\For{$j\leftarrow i + 1$ \KwTo $commentsList.size$}{
+				$\textit{suffix} \leftarrow$ определить общий суффикс для $commentsList[i]$ и $commentsList[j]$\\
+				\While{$\textit{suffix}[1]$ не символ новой строки}{
 					удалить первый символ $suffix$;\\
 				}
-				$update(suffix, i)$;\\
-				$update(suffix, j)$;\\
+				$update(\textit{suffix}, i)$;\\
+				$update(\textit{suffix}, j)$;\\
 			}	
 		}
 		\For{$i\leftarrow 1$ \KwTo $commentsList.size$}{
-			удалить из $commentsList[i]$ последние $suffix[i]$ символов;\\
+			удалить из $commentsList[i]$ последние $\textit{suffix}[i]$ символов;\\
 		}
 		
 		\Fn{update(suffix, x)}{
-		\If{$suffix.length \ge suffixLength[x]$}{
-					$suffixLength[x] \leftarrow suffix.length$;\\
+		\If{$\textit{suffix}.length \ge \textit{suffixLength}[x]$}{
+					$\textit{suffixLength}[x] \leftarrow \textit{suffix}.length$;\\
 				}}
 \end{algorithm}
 	\caption{Описание процедуры удаления общих суффиксов}
